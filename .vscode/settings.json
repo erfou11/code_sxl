@@ -1,0 +1,26 @@
+{
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.tabCompletion": "off",
+    "editor.acceptSuggestionOnEnter": "off",
+    "C_Cpp.autocomplete": "default",
+    "C_Cpp.debugShortcut": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": false,
+    "code-runner.executorMap": {
+        "cpp": "cd \"$dir\" && mkdir -p \"$workspaceRoot/build\" && clang++ -std=c++17 -Wall -Wextra -g \"$fileName\" -o \"$workspaceRoot/build/$fileNameWithoutExt\" && \"$workspaceRoot/build/$fileNameWithoutExt\""
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "cpp": false,
+        "c": false
+    }
+}
